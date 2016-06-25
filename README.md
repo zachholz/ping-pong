@@ -13,11 +13,11 @@ This program will take any whole, positive integer inputted and count up from 0 
   * Output: 1, 2, "ping"
 
 3. When counting, for numbers inputted that are divisible by 5, print out "pong" instead.
-  * Input: 3
+  * Input: 5
   * Output: 1, 2, "ping", 4, "pong"
 
 4. When counting, for numbers inputted that are divisible by 15, print out "pingpong" instead.
-  * Input: 3
+  * Input: 15
   * Output: 1, 2, "ping", 4, "pong", 6, 7, 8, 9, 10, 11, 12, 13, 14, "pingpong"
 
 

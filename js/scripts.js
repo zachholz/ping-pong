@@ -27,9 +27,7 @@ $(document).ready(function() {
   // collect user input
   var number = parseInt($("input#number").val());
   playPingPong(number);
-  
-
-  
+    
   event.preventDefault();
   
   });
