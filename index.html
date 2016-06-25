@@ -5,31 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ping Pong JS</title>
-
-    <!-- Bootstrap -->
+    
     <link href="css/bootstrap.css" rel="stylesheet">
-    <!-- Custom CSS Styling -->
     <link href="css/styles.css" rel="stylesheet">
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-2.2.4.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.js"></script>
-    <!-- Custom JS -->
     <script src="js/scripts.js"></script>
 
   </head>
   <body>
     <div class="container">
-    <h1>Play Ping Pong with numbers</h1>
+    <h1>Play Ping Pong with Numbers</h1>
     <form class="form-inline">
+      <h3>Please enter a whole number greater than zero.</h3>    
       <div class="form-group">
-        <h3>Please enter a whole number greater than zero.</h3>
         <label>Number</label>
         <input type="number" class="form-control" id="number" placeholder="Enter a number">
       </div>
       <button type="submit" class="btn btn-danger">Play ping pong</button>
-    </form>    
+    </form> 
+    <div id="results">
+      <ul id="counting">
+      
+      </ul>   
     </div>
   </body>
 </html>

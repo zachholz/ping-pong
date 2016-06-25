@@ -1,8 +1,8 @@
 // business logic
 
-var playPingPong = function(input) {
-  for(index = 0; index === input; index +=1;) {
-  
+var playPingPong = function(number) {
+  for(i = 0; i <= number; i +=1) {
+    $("ul#counting").append("<li>" + i + "</li>")    
 //     if() {
 //       // code for "ping" 
 //     } else if() {
@@ -20,8 +20,7 @@ var playPingPong = function(input) {
 $(document).ready(function() {
   $("form").submit(function(event) {
   var number = parseInt($("input#number").val());
-  playPingPong(input);
-  
+  playPingPong(number);
   
   event.preventDefault();
   
