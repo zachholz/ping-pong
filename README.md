@@ -29,6 +29,7 @@ To view the site, you can go to https://zachholz.github.io/ping-pong.
 To use the code, you can clone the repository at [https://github.com/zachholz/ping-pong](https://github.com/zachholz/ping-pong).
 
 To use: 
+
 1. Clone repository. 
 
 2. Open index.html in browser. 
