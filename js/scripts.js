@@ -1,17 +1,16 @@
 // business logic
 
 var playPingPong = function(number) {
-  for(i = 0; i <= number; i +=1) {
-    $("ul#counting").append("<li>" + i + "</li>")    
-//     if() {
-//       // code for "ping" 
+  for(i = 1; i <= number; i +=1) {   
+    if(i % 3 === 0) {
+      $("ul#counting").append("<li>ping</li>") 
 //     } else if() {
 //       // code for "pong"
 //     } else if() {
 //       // code for "pingpong"
-//     } else {
-//       // code for regular counting
-//     }
+    } else {
+      $("ul#counting").append("<li>" + i + "</li>") 
+    }
   }
 }
   
