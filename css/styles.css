@@ -1,0 +1,46 @@
+body {
+  background-color: moccasin;
+}
+
+div.left {
+  float: left;
+  background-color: #ff4d4d; 
+  height: 750px; 
+}
+
+div.right {
+  float: right; 
+  background-color: #000;
+  color: #fff; 
+  height: 750px;
+  overflow: auto;   
+}
+
+.gif {
+  width: 100%;
+}
+
+ul {
+  overflow: auto;
+  overflow-wrap: break-word;  
+}
+
+
+li {
+  list-style: none; 
+  display: inline; 
+  padding: 1%;  
+}
+
+#pingpong {
+  color: red; 
+}
+
+#ping {
+  color: moccasin;
+}
+
+#pong {
+  color: slategrey; 
+}
+

@@ -14,7 +14,7 @@
 
   </head>
   <body>
-    <div class="container">
+    <div class="col-md-6 left container">
     <h1>Play Ping Pong with Numbers</h1>
     <form class="form-inline">
       <h3>Please enter a whole number greater than zero.</h3>    
@@ -23,11 +23,17 @@
         <input type="number" class="form-control" id="number" placeholder="Enter a number">
       </div>
       <button type="submit" class="btn btn-danger">Play ping pong</button>
-    </form> 
-    <div id="results">
-      <ul id="counting">
-      
-      </ul>   
+    </form>
+    </div>
+    <div class="col-md-6 right container"> 
+      <div class="fullscreen">
+        <img class="gif" src="img/ping-pong.gif" alt="forrest gump ping pong">
+      </div>  
+      <div id="results">
+        <ul id="counting">
+    
+        </ul>   
+      </div>
     </div>
   </body>
 </html>
