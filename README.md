@@ -5,23 +5,23 @@ Ping Pong with Numbers
 This program will take any whole, positive integer inputted and count up from 0 to the number. When it reaches multiples of 3, it will substitute the word "ping" for the number; for numbers divisible by 5, it will substitute "pong"; and for numbers divisible by 15, it will substitue "pingpong".
 
 1. When counting, for numbers inputted that are not divisible by 3, 5, or 15, print out the numbers. 
-** Input: 2
-** Output: 1, 2
+  * Input: 2
+  * Output: 1, 2
 
 2. When counting, for numbers inputted that are divisible by 3, print out "ping" instead.
-** Input: 3
-** Output: 1, 2, "ping"
+  * Input: 3
+  * Output: 1, 2, "ping"
 
 3. When counting, for numbers inputted that are divisible by 5, print out "pong" instead.
-** Input: 3
-** Output: 1, 2, "ping", 4, "pong"
+  * Input: 3
+  * Output: 1, 2, "ping", 4, "pong"
 
 4. When counting, for numbers inputted that are divisible by 15, print out "pingpong" instead.
-** Input: 3
-** Output: 1, 2, "ping", 4, "pong", 6, 7, 8, 9, 10, 11, 12, 13, 14, "pingpong"
+  * Input: 3
+  * Output: 1, 2, "ping", 4, "pong", 6, 7, 8, 9, 10, 11, 12, 13, 14, "pingpong"
 
 
-##Languages
+## Languages
 HTML, CSS (including Bootstrap), JavaScript and jQuery. 
 
 ## Usage
@@ -30,7 +30,9 @@ To use the code, you can clone the repository at [https://github.com/zachholz/pi
 
 To use: 
 1. Clone repository. 
+
 2. Open index.html in browser. 
+
 3. Play ping pong to your heart's content. 
 
 ## Author/s
