@@ -1,4 +1,4 @@
-// business logic
+// Business logic
 
 var playPingPong = function(number) {
   for(i = 1; i <= number; i +=1) {   
@@ -15,11 +15,20 @@ var playPingPong = function(number) {
 }
   
 
-// user interface logic
+// User interface logic
 $(document).ready(function() {
   $("form").submit(function(event) {
+
+  // refresh results list 
+  $("button").click(function() {
+    $("li").remove();
+  });
+    
+  // collect user input
   var number = parseInt($("input#number").val());
   playPingPong(number);
+  
+
   
   event.preventDefault();
   
